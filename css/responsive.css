@@ -1,0 +1,417 @@
+/* ==========================================================
+   Rocky Portfolio
+   Responsive Stylesheet
+   Mobile First Responsive Design
+   ========================================================== */
+
+
+/* ==========================================================
+   Large Desktop (1400px+)
+   ========================================================== */
+
+@media (min-width: 1400px){
+
+    .hero{
+
+        max-width:1400px;
+        margin:auto;
+
+    }
+
+    .button-group{
+
+        width:700px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Desktop (1200px and below)
+   ========================================================== */
+
+@media (max-width:1200px){
+
+    section{
+
+        padding:70px 6%;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Tablet Landscape
+   ========================================================== */
+
+@media (max-width:992px){
+
+    .hero{
+
+        padding:60px 30px;
+
+    }
+
+    .hero-box{
+
+        padding:24px 45px;
+
+    }
+
+    .button-group{
+
+        width:100%;
+        max-width:550px;
+
+    }
+
+    .section-title{
+
+        font-size:1.8rem;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Tablet Portrait
+   ========================================================== */
+
+@media (max-width:768px){
+
+    html{
+
+        font-size:95%;
+
+    }
+
+    .hero{
+
+        min-height:100vh;
+
+        padding:40px 20px;
+
+    }
+
+    .hero-box{
+
+        width:100%;
+
+        max-width:500px;
+
+        padding:22px;
+
+    }
+
+    .hero-title{
+
+        letter-spacing:3px;
+
+    }
+
+    .hero-subtitle{
+
+        font-size:1rem;
+
+        line-height:1.6;
+
+    }
+
+    .button-group{
+
+        gap:18px;
+
+        margin-top:40px;
+
+    }
+
+    .nav-btn{
+
+        width:100%;
+
+        font-size:1rem;
+
+        padding:16px;
+
+    }
+
+    section{
+
+        padding:60px 25px;
+
+    }
+
+    .glass-card{
+
+        padding:20px;
+
+    }
+
+    .social-icons{
+
+        flex-wrap:wrap;
+
+        gap:15px;
+
+    }
+
+    #fab{
+
+        width:56px;
+        height:56px;
+
+        right:20px;
+        bottom:20px;
+
+        font-size:20px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Mobile Large
+   ========================================================== */
+
+@media (max-width:576px){
+
+    html{
+
+        font-size:90%;
+
+    }
+
+    body{
+
+        overflow-x:hidden;
+
+    }
+
+    .hero{
+
+        padding:30px 15px;
+
+    }
+
+    .hero-box{
+
+        padding:18px;
+
+        border-radius:16px;
+
+    }
+
+    .hero-title{
+
+        letter-spacing:2px;
+
+        word-break:break-word;
+
+    }
+
+    .hero-subtitle{
+
+        margin-top:18px;
+
+        font-size:.95rem;
+
+    }
+
+    .button-group{
+
+        gap:15px;
+
+    }
+
+    .nav-btn{
+
+        padding:15px;
+
+        border-radius:14px;
+
+    }
+
+    .section-title{
+
+        font-size:1.6rem;
+
+    }
+
+    footer{
+
+        padding:35px 15px;
+
+    }
+
+    .footer-content{
+
+        font-size:.95rem;
+
+    }
+
+    .social-icons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    #fab{
+
+        width:52px;
+
+        height:52px;
+
+        font-size:18px;
+
+    }
+
+    .cursor{
+
+        display:none;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Small Mobile
+   ========================================================== */
+
+@media (max-width:400px){
+
+    html{
+
+        font-size:88%;
+
+    }
+
+    .hero-title{
+
+        font-size:2.3rem;
+
+    }
+
+    .hero-subtitle{
+
+        font-size:.9rem;
+
+    }
+
+    .hero-box{
+
+        padding:15px;
+
+    }
+
+    .nav-btn{
+
+        font-size:.95rem;
+
+        padding:14px;
+
+    }
+
+    section{
+
+        padding:50px 15px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Ultra Small Devices
+   ========================================================== */
+
+@media (max-width:320px){
+
+    html{
+
+        font-size:84%;
+
+    }
+
+    .hero-title{
+
+        font-size:2rem;
+
+    }
+
+    .nav-btn{
+
+        padding:12px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Landscape Mobile
+   ========================================================== */
+
+@media (max-height:500px) and (orientation:landscape){
+
+    .hero{
+
+        min-height:auto;
+
+        padding:40px 20px;
+
+    }
+
+    .button-group{
+
+        margin-top:25px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Hover Support
+   ========================================================== */
+
+@media (hover:none){
+
+    .nav-btn:hover{
+
+        transform:none;
+
+    }
+
+    #fab:hover{
+
+        transform:none;
+
+    }
+
+}
+
+
+/* ==========================================================
+   Reduced Motion Accessibility
+   ========================================================== */
+
+@media (prefers-reduced-motion:reduce){
+
+    *{
+
+        animation:none !important;
+
+        transition:none !important;
+
+        scroll-behavior:auto !important;
+
+    }
+
+}
